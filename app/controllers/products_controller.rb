@@ -1,5 +1,5 @@
 class ProductsController < ApplicationController
-  before_action :set_product, except: %i[ index new create ]
+  before_action :set_product, only: %i[ show edit update ]
 
   def index
     @products = Product.all
