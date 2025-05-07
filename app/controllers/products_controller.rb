@@ -49,6 +49,6 @@ class ProductsController < ApplicationController
   end
 
   def product_params
-    params.expect(product: %i[ name description ])
+    params.expect(product: %i[ name description featured_image])
   end
 end
