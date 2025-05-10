@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  get "unsubscribes/show"
-  get "subscribers/create"
   root to: "products#index"
 
   resource :session
