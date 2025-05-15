@@ -35,7 +35,7 @@ class ReviewsController < ApplicationController
 
   def destroy
     if @product.destroy
-      redirect_to product_reviews_path
+      redirect_to reviews_path
     else
       render :edit, status: :unprocessable_entity, notice: "Erro ao apagar produto!"
     end
