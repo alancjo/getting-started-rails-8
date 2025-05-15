@@ -9,7 +9,6 @@
 - [ ] Add wishlists for users to save products
 - [ ] Add a carousel for product images
 
-
 ## What's Next?
 [Active Record Basic](https://guides.rubyonrails.org/active_record_basics.html)
 [Layouts and Rendering in Rails](https://guides.rubyonrails.org/layouts_and_rendering.html)
